@@ -1,7 +1,7 @@
 const express = require('express');
 const Router = require('Router');
 const PageController = require('../controllers/pageController');
-const SearchController = require('../controllers/searchController')
+const SearchController = require('../controllers/searchController');
 
 const router = Router();
 

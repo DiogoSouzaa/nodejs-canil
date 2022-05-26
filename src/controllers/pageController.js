@@ -1,17 +1,16 @@
 const express = require('express');
 
 const home = (req, res) => {
-    res.send('home no controller')
-   // res.render('pages/page')
+    res.render('pages/page');
 }
 const dogs = (req, res) => {
-    //res.render('pages/page')
+    res.send('dogs');
 }
 const cats = (req, res) => {
-    //res.render('pages/page')
+    res.send('cats');
 }
 const fishes = (req, res) => {
-    //res.render('pages/page')
+    res.send('fishes');
 }
 
 module.exports.home = home;
